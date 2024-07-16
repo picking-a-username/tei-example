@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>"To make a prairie"</title>
+            <author>Emily Dickinson</author>
+         <respStmt>
+            <name>Naomi Gades</name>
+            <resp>encoder</resp>
+         </respStmt>
+       </titleStmt>
+         <editionStmt>
+            <edition>Edition Statement</edition>
+         </editionStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+           <bibl>
+              <author>Emily Dickinson</author>
+              <title>"To make a prairie"</title>
+           </bibl>        
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+  <front>
+      <docTitle>To Make a Prairie</docTitle>
+  </front>
+      <body>
+         <lg xmlns="http://www.tei-c.org/ns/1.0" type="poem" rhyme="aaabb">
+         <lg>
+            <l rhyme="a">To make a prairie it takes <seg ana="#nature">a clover and one <rhyme>bee</rhyme></seg>,</l>
+            <l rhyme ="a">One clover, and a <rhyme>bee.</rhyme></l>
+            <l rhyme ="a">And <rhyme>revery</rhyme>.</l>
+            <l rhyme ="b">The revery alone will <rhyme>do</rhyme>,</l>
+            <l rhyme ="b">If bees are <rhyme>few</rhyme>.</l>
+         </lg>
+         </lg>
+      </body>
+  </text>
+</TEI>
