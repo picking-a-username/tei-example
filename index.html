@@ -4,17 +4,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="tei.css">
-      <script src="CETEI.js"></script>
-      <script>
-        let c = new CETEI();
-    c.getHTML5('to-make-a-prairie.xml', function(data) {
-      document.getElementsByTagName("body")[0].appendChild(data);
-    });
-        </script>
-    
+  <link rel="stylesheet" href="CETEIcean.css">
+  <link rel="stylesheet" href="custom.css">
+  <title>To Make a Priarie</title>
+    <!-- <link rel="stylesheet" href="tei.css"> -->
+    <script src="CETEI.js"></script>
+    <script src="behaviors.js"></script>  
 </head>
 <body>
-<p>here is some text</p>
+  <div id="TEI"></div>
+  <script>
+    let c = new CETEI();
+c.getHTML5('to-make-a-prairie.xml', function(data) {
+  document.getElementsByTagName("body")[0].appendChild(data);
+});
+    </script>
 </body>
 </html>
